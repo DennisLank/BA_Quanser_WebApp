@@ -1,0 +1,44 @@
+/* Allgemeine Stile für das DataTable-Layout */
+.my-datatable {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  /* Header-Stil */
+  .my-datatable .dash-header {
+    background-color: #0074D9 !important;
+    color: white !important;
+    font-weight: bold;
+  }
+  
+  /* Zellstil */
+  .my-datatable .dash-cell {
+    text-align: left;
+    padding: 5px;
+    white-space: normal;
+    border: 1px solid #ccc;
+  }
+  
+  /* Filter-Stil */
+  .dash-filter input {
+    color: #000 !important;               /* Schrift schwarz */
+    background-color: #fff !important;    /* Hintergrund weiß */
+    border: 1px solid #ccc !important;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  /* Placeholder-Farbe */
+  .dash-filter input::placeholder {
+    color: #000 !important;               /* Dunkleres Grau für Placeholder */
+  }
+  
+  /* Falls ältere Browser Unterstützung brauchen */
+  .dash-filter input:-ms-input-placeholder {
+    color: #000 !important;
+  }
+  .dash-filter input::-ms-input-placeholder {
+    color: #000 !important;
+  }
+  

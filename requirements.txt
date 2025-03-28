@@ -1,0 +1,16 @@
+pandas==2.2.3
+numpy==1.23.5
+
+ultralytics==8.3.76
+SQLAlchemy==2.0.38
+SpeechRecognition==3.14.1
+scikit-learn==1.6.1
+pyttsx3==2.98
+pyrealsense2==2.55.1.6486
+opencv-python==4.11.0.86
+mysql-connector-python==9.2.0
+flask==3.0.3
+dash==2.18.2
+dash-bootstrap-components==1.7.1
+cffi==1.17.1
+pyaudio==0.2.14

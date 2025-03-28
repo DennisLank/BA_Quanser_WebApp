@@ -1,0 +1,19 @@
+/* Für den Zustand "connected" (grün) */
+.connected {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(10%) saturate(4000%) hue-rotate(80deg) brightness(100%) contrast(70%);
+}
+
+/* Für den Zustand "disconnected" (rot) */
+.disconnected {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(90%) saturate(8000%) hue-rotate(350deg) brightness(90%) contrast(70%);
+}
+
+/* Für den Zustand "not all conn" (gelb) */
+.half_conn {
+    filter: brightness(0) saturate(100%) invert(88%) sepia(92%) saturate(4520%) hue-rotate(358deg) brightness(105%) contrast(108%);
+}
+
+/* Für den Zustand "not_available" (grau) */
+.not_available {
+    filter: grayscale(100%) brightness(4) contrast(0.25);
+}
