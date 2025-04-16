@@ -76,6 +76,7 @@ class Dashboard:
 
             html.Ul([
                 html.Li([html.B("Erstprüfer:"), " Prof. Dr.-Ing. Peter Engel"]),
+                html.Li([html.B("Zweitprüfer:"), " Prof. Dr. rer. nat. Marcus Menzel"]),
                 html.Li([html.B("Fachbereich:"), " Maschinenbau"]),
             ], className="mb-3"),
 
