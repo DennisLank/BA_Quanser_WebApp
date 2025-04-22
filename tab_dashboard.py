@@ -43,6 +43,11 @@ class Dashboard:
                 html.Tr([html.Td("🛑 Not-Aus"), html.Td("🔴"), html.Td("Sofortiges Abschalten aller Prozesse; Neustart erforderlich.")]),
             ])], bordered=True, hover=True),
 
+            html.Div(className="alert alert-warning", children=[
+                html.B("Wichtig:"),
+                " Nutzen Sie den Not-Aus-Button nur in Notfällen, da anschließend ein Neustart der Anwendung erforderlich ist."
+            ]),
+
             html.Hr(),
 
             html.H4("Verfügbare Sprachbefehle:"),
@@ -59,11 +64,6 @@ class Dashboard:
                 dbc.ListGroupItem(html.Code('"Platziere Objekt {id} zu Objekt {id}" - Durchführung einer Pick-&-Place-Operation zwischen Objekten.')),
                 dbc.ListGroupItem(html.Code('"Platziere Objekt {id} zu Koordinaten x={x}, y={y}" - Präzise Positionierung eines Objekts an angegebene Koordinaten.')),
             ], className="mb-4"),
-
-            html.Div(className="alert alert-warning", children=[
-                html.B("Wichtig:"),
-                " Nutzen Sie den Not-Aus-Button nur in Notfällen, da anschließend ein Neustart der Anwendung erforderlich ist."
-            ]),
 
             html.P("Statusmeldungen erscheinen kurzzeitig (2-4 Sek.) als Toast-Pop-ups oben rechts."),
 
